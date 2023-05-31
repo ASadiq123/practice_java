@@ -37,9 +37,11 @@ public class DemoPractice {
 
      public static void main (String args[])   {
         DemoPractice obj1 = new DemoPractice ("aida", "25", "333434f");
+        DemoPractice obj2 = new DemoPractice ("keua", "30", "883893938");
 
 
         System. out. println (obj1. name + obj1.age + obj1.phone);
+         System.out.println( obj2.name + obj2.age + obj2.phone);
 
      }
 
