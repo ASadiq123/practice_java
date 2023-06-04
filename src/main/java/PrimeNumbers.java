@@ -7,7 +7,7 @@ public class PrimeNumbers {
     public static void main (String[] args) {
             int num = 50, count ;
 
-            for (int i = 0; i <= num; i++) {
+            for (int i = 1; i <= num; i++) {
                 count = 1;
                 for (int j = 2; j<= i/2; j++){
                     if (i%j == 0){
